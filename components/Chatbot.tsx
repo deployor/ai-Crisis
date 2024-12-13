@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import {AnimatePresence, motion} from 'framer-motion';
+import {AnimatePresence, motion} from 'motion/react';
 import {PaperAirplaneIcon} from '@heroicons/react/24/solid';
 import {Message} from '../utils/openaiClient';
 import {messageSchema} from '../utils/validation';

@@ -1,5 +1,5 @@
 import ResourceLayout from '../../components/ResourceLayout';
-import {motion} from 'framer-motion';
+import {motion} from 'motion/react';
 
 const AnxietyPage = () => (
     <ResourceLayout
@@ -45,21 +45,21 @@ const AnxietyPage = () => (
                         <li className="flex items-start">
                             <span className="text-2xl mr-3">💓</span>
                             <div>
-                                <h3 class="font-bold mb-1">Physical Sensations</h3>
+                                <h3 className="font-bold mb-1">Physical Sensations</h3>
                                 <p>Rapid heartbeat, sweating, trembling</p>
                             </div>
                         </li>
                         <li className="flex items-start">
                             <span className="text-2xl mr-3">😰</span>
                             <div>
-                                <h3 class="font-bold mb-1">Breathing Changes</h3>
+                                <h3 className="font-bold mb-1">Breathing Changes</h3>
                                 <p>Shortness of breath, hyperventilation</p>
                             </div>
                         </li>
                         <li className="flex items-start">
                             <span className="text-2xl mr-3">🤢</span>
                             <div>
-                                <h3 class="font-bold mb-1">Other Symptoms</h3>
+                                <h3 className="font-bold mb-1">Other Symptoms</h3>
                                 <p>Nausea, dizziness, muscle tension</p>
                             </div>
                         </li>
@@ -78,28 +78,28 @@ const AnxietyPage = () => (
                         <li className="flex items-start">
                             <span className="text-2xl mr-3">🫁</span>
                             <div>
-                                <h3 class="font-bold mb-1">Breathing Exercises</h3>
+                                <h3 className="font-bold mb-1">Breathing Exercises</h3>
                                 <p>Practice deep, controlled breathing techniques</p>
                             </div>
                         </li>
                         <li className="flex items-start">
                             <span className="text-2xl mr-3">🧘</span>
                             <div>
-                                <h3 class="font-bold mb-1">Grounding Techniques</h3>
+                                <h3 className="font-bold mb-1">Grounding Techniques</h3>
                                 <p>Use your senses to stay present</p>
                             </div>
                         </li>
                         <li className="flex items-start">
                             <span className="text-2xl mr-3">🎯</span>
                             <div>
-                                <h3 class="font-bold mb-1">Challenge Thoughts</h3>
+                                <h3 className="font-bold mb-1">Challenge Thoughts</h3>
                                 <p>Question and reframe anxious thinking</p>
                             </div>
                         </li>
                         <li className="flex items-start">
                             <span className="text-2xl mr-3">🤝</span>
                             <div>
-                                <h3 class="font-bold mb-1">Seek Support</h3>
+                                <h3 className="font-bold mb-1">Seek Support</h3>
                                 <p>Talk to friends, family, or professionals</p>
                             </div>
                         </li>

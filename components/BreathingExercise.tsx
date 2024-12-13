@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react';
-import {motion} from 'framer-motion';
+import {motion} from 'motion/react';
 
 const BreathingExercise = () => {
     const [phase, setPhase] = useState<'inhale' | 'hold' | 'exhale'>('inhale');

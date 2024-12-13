@@ -1,5 +1,5 @@
-import {useState} from 'react';
-import {AnimatePresence, motion} from 'framer-motion';
+import {JSX, useState} from 'react';
+import {AnimatePresence, motion} from 'motion/react';
 import {
     BookOpenIcon,
     ExclamationTriangleIcon,

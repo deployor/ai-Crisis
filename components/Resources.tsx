@@ -1,5 +1,5 @@
 import {GlobeAltIcon, PhoneIcon} from '@heroicons/react/24/solid';
-import {motion} from 'framer-motion';
+import {motion} from 'motion/react';
 
 const Resources = () => {
     const helplines = [

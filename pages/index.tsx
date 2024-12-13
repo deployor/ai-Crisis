@@ -6,7 +6,7 @@ import {
   LightBulbIcon,
   PhoneIcon
 } from '@heroicons/react/24/solid';
-import {motion} from 'framer-motion';
+import {motion} from 'motion/react';
 import Link from 'next/link';
 import Navbar from '../components/Navbar';
 import Resources from '../components/Resources';
