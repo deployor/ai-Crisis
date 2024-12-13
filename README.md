@@ -51,7 +51,7 @@ A demo can be found at https://crisis.thiswhity.uk/
 
 <div align="center">
   <img src="https://files.catbox.moe/yjnuf2.png" width="400" alt="Screeeeeniee1" />
-  <img src="https://files.catbox.moe/yjnuf2.png" width="400" alt="Screeeeeniee2" />
+  <img src="https://files.catbox.moe/7hoj8f.png" width="400" alt="Screeeeeniee2" />
   <br/>
   <img src="https://files.catbox.moe/nn2pp6.png" width="400" alt="Screeeeeniee3" />
   <img src="https://files.catbox.moe/k3ypge.png" width="400" alt="Screeeeeniee4" />
