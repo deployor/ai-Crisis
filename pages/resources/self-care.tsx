@@ -71,6 +71,7 @@ const SelfCarePage = () => (
                 initial={{opacity: 0, y: 20}}
                 animate={{opacity: 1, y: 0}}
                 transition={{delay: 0.2}}
+                className="space-y-8"
             >
                 <div className="card p-6 bg-green-600/10 border border-green-500/30 sticky top-8">
                     <h2 className="text-2xl font-bold mb-4">Daily Practices</h2>

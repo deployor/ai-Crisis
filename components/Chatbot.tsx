@@ -80,16 +80,13 @@ const Chatbot = () => {
                             exit={{opacity: 0}}
                             transition={{duration: 0.2}}
                             className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'} mb-4`}
+                            className={`max-w-[80%] p-4 rounded-2xl ${
+                                msg.role === 'assistant'
+                                    ? 'bg-blue-600/30 border border-blue-500/30'
+                                    : 'bg-purple-600/30 border border-purple-500/30'
+                            }`}
                         >
-                            <div
-                                className={`max-w-[80%] p-4 rounded-2xl ${
-                                    msg.role === 'assistant'
-                                        ? 'bg-blue-600/30 border border-blue-500/30'
-                                        : 'bg-purple-600/30 border border-purple-500/30'
-                                }`}
-                            >
-                                <p className="text-white">{msg.content}</p>
-                            </div>
+                            <p className="text-white">{msg.content}</p>
                         </motion.div>
                     ))}
                     {isLoading && (

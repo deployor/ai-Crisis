@@ -30,7 +30,7 @@ const SleepPage = () => (
                             </div>
                         </li>
                         <li className="flex items-start">
-                            <span className="text-2xl mr-3">🛏��</span>
+                            <span className="text-2xl mr-3">🛏️</span>
                             <div>
                                 <h3 className="font-bold mb-1">Bedroom Environment</h3>
                                 <p>Keep your space dark, quiet, and cool</p>
@@ -71,33 +71,32 @@ const SleepPage = () => (
                 initial={{opacity: 0, y: 20}}
                 animate={{opacity: 1, y: 0}}
                 transition={{delay: 0.2}}
+                className="card p-6 bg-purple-600/10 border border-purple-500/30 sticky top-8"
             >
-                <div className="card p-6 bg-purple-600/10 border border-purple-500/30 sticky top-8">
-                    <h2 className="text-2xl font-bold mb-4">Tips for Better Sleep</h2>
-                    <ul className="space-y-4 text-gray-300">
-                        <li className="flex items-start">
-                            <span className="text-2xl mr-3">☕</span>
-                            <div>
-                                <h3 className="font-bold mb-1">Watch Your Diet</h3>
-                                <p>Avoid caffeine and heavy meals before bed</p>
-                            </div>
-                        </li>
-                        <li className="flex items-start">
-                            <span className="text-2xl mr-3">🏃‍♀️</span>
-                            <div>
-                                <h3 className="font-bold mb-1">Daily Exercise</h3>
-                                <p>Regular physical activity improves sleep</p>
-                            </div>
-                        </li>
-                        <li className="flex items-start">
-                            <span className="text-2xl mr-3">🌞</span>
-                            <div>
-                                <h3 className="font-bold mb-1">Natural Light</h3>
-                                <p>Get sunlight exposure during the day</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                <h2 className="text-2xl font-bold mb-4">Tips for Better Sleep</h2>
+                <ul className="space-y-4 text-gray-300">
+                    <li className="flex items-start">
+                        <span className="text-2xl mr-3">☕</span>
+                        <div>
+                            <h3 className="font-bold mb-1">Watch Your Diet</h3>
+                            <p>Avoid caffeine and heavy meals before bed</p>
+                        </div>
+                    </li>
+                    <li className="flex items-start">
+                        <span className="text-2xl mr-3">🏃‍♀️</span>
+                        <div>
+                            <h3 className="font-bold mb-1">Daily Exercise</h3>
+                            <p>Regular physical activity improves sleep</p>
+                        </div>
+                    </li>
+                    <li className="flex items-start">
+                        <span className="text-2xl mr-3">🌞</span>
+                        <div>
+                            <h3 className="font-bold mb-1">Natural Light</h3>
+                            <p>Get sunlight exposure during the day</p>
+                        </div>
+                    </li>
+                </ul>
             </motion.div>
         </div>
     </ResourceLayout>
