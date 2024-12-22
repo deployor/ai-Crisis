@@ -13,7 +13,9 @@ import Resources from '../components/Resources';
 import Chatbot from '../components/Chatbot';
 import BreathingExercise from '../components/BreathingExercise';
 import GroundingTechnique from '../components/GroundingTechnique';
+import DepressionScreener from '../components/DepressionScreener';
 import Image from 'next/image';
+import AnxietyTest from '../components/AnxietyTest';
 
 const resources = [
     {
@@ -57,6 +59,69 @@ const resources = [
         color: "orange",
         icon: "🤝",
         href: "/resources/relationships"
+    },
+    {
+        title: "Depression Support",
+        description: "Understanding and managing depression symptoms",
+        color: "blue",
+        icon: "💙",
+        href: "/resources/depression"
+    },
+    {
+        title: "Trauma & PTSD",
+        description: "Resources for trauma recovery and healing",
+        color: "purple",
+        icon: "🌟",
+        href: "/resources/trauma"
+    },
+    {
+        title: "Addiction Recovery",
+        description: "Support for various types of addiction",
+        color: "green",
+        icon: "🌱",
+        href: "/resources/addiction"
+    },
+    {
+        title: "Grief & Loss",
+        description: "Coping with loss and bereavement",
+        color: "indigo",
+        icon: "🕊️",
+        href: "/resources/grief"
+    },
+    {
+        title: "Family Support",
+        description: "Resources for family mental health",
+        color: "pink",
+        icon: "👨‍👩‍👧‍👦",
+        href: "/resources/family"
+    },
+    {
+        title: "Work-Life Balance",
+        description: "Managing stress and burnout at work",
+        color: "orange",
+        icon: "⚖️",
+        href: "/resources/work-life"
+    },
+    {
+        title: "Teen Mental Health",
+        description: "Resources specifically for teenagers",
+        color: "blue",
+        icon: "🎓",
+        href: "/resources/teens"
+    },
+    {
+        title: "LGBTQ+ Support",
+        description: "Mental health resources for LGBTQ+ individuals",
+        color: "purple",
+        icon: "🌈",
+        href: "/resources/lgbtq"
+    },
+    {
+        title: "Crisis Planning",
+        description: "Creating a personal crisis management plan",
+        color: "red",
+        icon: "🆘",
+        href: "/resources/crisis-plan"
     }
 ];
 
@@ -136,12 +201,18 @@ const HomePage = () => {
                 >
                     <div className="text-center mb-8">
                         <h2 className="text-3xl font-bold mb-4">Helpful Tools</h2>
-                        <p className="text-gray-300 mb-8">Take a moment to center yourself</p>
+                        <p className="text-gray-300 mb-8">Take a moment to check in with yourself</p>
                     </div>
 
-                    <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-                        <BreathingExercise/>
-                        <GroundingTechnique/>
+                    <div className="grid gap-6 max-w-4xl mx-auto">
+                        <div className="grid md:grid-cols-2 gap-6">
+                            <DepressionScreener/>
+                            <AnxietyTest/>
+                        </div>
+                        <div className="grid md:grid-cols-2 gap-6">
+                            <BreathingExercise/>
+                            <GroundingTechnique/>
+                        </div>
                     </div>
                 </motion.section>
 

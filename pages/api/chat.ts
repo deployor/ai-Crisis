@@ -1,4 +1,3 @@
-// pages/api/chat.ts
 import type {NextApiRequest, NextApiResponse} from 'next';
 import {createChatCompletion} from '../../utils/openaiClient';
 import {globalRateLimiter} from '../../utils/rateLimiter';

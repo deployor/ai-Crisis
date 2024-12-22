@@ -1,4 +1,4 @@
-import {GlobeAltIcon, PhoneIcon} from '@heroicons/react/24/solid';
+import {GlobeAltIcon, PhoneIcon, HeartIcon, ShieldCheckIcon} from '@heroicons/react/24/solid';
 import {motion} from 'motion/react';
 
 const Resources = () => {
@@ -14,8 +14,31 @@ const Resources = () => {
             number: '116 123',
             name: 'Samaritans',
             icon: <GlobeAltIcon className="h-6 w-6"/>
+        },
+        {
+            country: 'Canada',
+            number: '1-833-456-4566',
+            name: 'Canada Suicide Prevention Service',
+            icon: <GlobeAltIcon className="h-6 w-6"/>
+        },
+        {
+            country: 'Australia',
+            number: '13 11 14',
+            name: 'Lifeline',
+            icon: <GlobeAltIcon className="h-6 w-6"/>
+        },
+        {
+            country: 'LGBTQ+ Support',
+            number: '1-866-488-7386',
+            name: 'Trevor Project',
+            icon: <HeartIcon className="h-6 w-6"/>
+        },
+        {
+            country: 'Veterans Crisis',
+            number: '988',
+            name: 'Veterans Crisis Line',
+            icon: <ShieldCheckIcon className="h-6 w-6"/>
         }
-        // TODO: ADD MORE
     ];
 
     return (
