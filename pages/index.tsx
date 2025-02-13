@@ -139,13 +139,14 @@ const HomePage = () => {
                     animate={{opacity: 1}}
                     className="text-center mb-16"
                 >
-                    <div className="relative w-[512px] h-64 mx-auto mb-12">
+                    <div className="relative w-[100%] h-64 mx-auto mb-12 max-w-full max-w-full">
                         <Image 
                             src="/logo.png" 
                             alt="Herbert Logo" 
                             fill
                             style={{ objectFit: 'contain' }}
                             priority
+                            className="max-w-full"
                         />
                     </div>
                     <HeartIcon className="h-20 w-20 text-red-500 mx-auto mb-6"/>
