@@ -12,7 +12,7 @@
     "framer-motion": "^6.5.1",
     "lucia-auth": "^1.0.0",
     "motion": "^11.14.4",
-    "next": "15.1.0",
+    "next": "15.1.11",
     "next-rate-limit": "^0.0.3",
     "openai": "^3.0.0",
     "react": "^18.0.0",
